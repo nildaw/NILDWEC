@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>formulario</h1>
+
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+
+<button onclick="myFunction()">Click me</button>
+
+<script>function myFunction() {
+  var nombre = document.getElementById("fname").value;
+  var apellido = document.getElementById("lname").value;
+  alert("Hola mundo! "+ nombre  +" "+ apellido);
+}</script>
+
+</body>
+</html>
